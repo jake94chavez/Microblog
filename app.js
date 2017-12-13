@@ -8,12 +8,6 @@ document.getElementById('button').addEventListener('click', postToArray = () => 
 	makeAPost();
 });
 
-// No clue why but allPosts array starts with allPosts[0] = ""
-// This is here to get rid of that
-if (allPosts.last === "") {
-	allPosts.pop();
-}
-
 const makeAPost = () => {
 	let blurb = document.createElement('LI');
 	let postText = allPosts[0]
