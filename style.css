@@ -1,0 +1,44 @@
+input {
+	width: 50%;
+}
+
+#submission {
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	text-align: left;
+}
+
+.icon {
+	float:right;
+}
+
+#button {
+	margin: auto;
+	display: block;
+	margin-top: 20px;
+
+}
+
+hr {
+	margin-right: 45px;
+	margin-left: 45px;
+}
+
+h1 {
+	margin-left: 10%;
+	margin-top: 1%;
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-left: -40px;
+}
+
